@@ -1,0 +1,28 @@
+
+@charset "UTF-8";
+* {margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+
+body {display: flex; flex-direction: column; height: 100vh;}
+
+header {text-align: center; padding: 40px; background-color: blue; color: white;} 
+
+/* MENU */
+#IconeMenu {display: none} #ItensMenuMovel {display: none;}
+
+.ItensMenu {display: flex; flex-wrap: wrap;}
+
+.ItensMenu > div {display: flex;} 
+.ql1 {width: 55%; justify-content: flex-end;} 
+.ql2 {width: 45%; justify-content: flex-start;}
+
+a {display: block; text-decoration: none; color: blueviolet; padding: 10px;} 
+a:hover {text-decoration: underline; color: blue; font-weight: bolder;}
+/* FIM MENU */
+
+main {display: flex; height: 100%; background-color: black}
+
+main div {flex: auto; background-size: cover;  
+            background: url('../imagens/css-grid-flexbox.png') no-repeat center;}
+
+footer {background-color: black; color: white; padding: 20px; 
+        text-align: center; line-height: 1.5em;}
