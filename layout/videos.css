@@ -26,7 +26,11 @@ main > p > a:hover {text-decoration: underline; color: blue;}
  .videos div iframe {width: 95%;}
 }
 
-@media (max-width: 710px) { .videos {max-width: 600px;} }
+@media (max-width: 750px) 
+{ 
+  .videos {max-width: 600px;} 
+  h1 {font-size: larger;}
+}
 
 @media (max-width: 610px) 
 { 
