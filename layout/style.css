@@ -47,9 +47,8 @@ footer #rodape2 {display: none;}
   #IconeMenu:hover {cursor: pointer;}
 
   #ItensMenuMovel a {display: block; text-align: center; text-decoration: none; padding: 20px;
-                font-weight: bolder; border-top: 2px solid darkgray; color: blue;}
-  #ItensMenuMovel a:hover {text-decoration: underline; color: white;
-                        background-color: blue;}
+                      font-weight: bolder; border-top: 2px solid darkgray; color: blue;}
+  #ItensMenuMovel a:hover {text-decoration: underline; color: white; background-color: blue;}
 
   footer {font-size: .7em;}
 }
