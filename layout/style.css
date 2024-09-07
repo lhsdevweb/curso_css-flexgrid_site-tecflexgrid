@@ -7,7 +7,7 @@ body {display: flex; flex-direction: column; height: 100vh;}
 header {text-align: center; padding: 40px; background-color: blue; color: white;} 
 
 /* MENU */
-#IconeMenu {display: none} #ItensMenuMovel {display: none;}
+#IconeMenu {display: none} #ItensMenuMovel a {display: none;}
 
 .ItensMenu {display: flex; flex-wrap: wrap;}
 
@@ -15,8 +15,8 @@ header {text-align: center; padding: 40px; background-color: blue; color: white;
 .ql1 {width: 55%; justify-content: flex-end;} 
 .ql2 {width: 45%; justify-content: flex-start;}
 
-a {display: block; text-decoration: none; color: blueviolet; padding: 10px;} 
-a:hover {text-decoration: underline; color: blue; font-weight: bolder;}
+.ItensMenu a {display: block; text-decoration: none; color: blueviolet; padding: 10px;} 
+.ItensMenu a:hover {text-decoration: underline; color: blue; font-weight: bolder;}
 /* FIM MENU */
 
 main {display: flex; height: 100%; background-color: black}
@@ -26,15 +26,15 @@ main div {flex: auto; background-size: cover;
 
 footer {background-color: black; color: white; padding: 20px; 
         text-align: center; line-height: 1.5em;}
-footer #rodape1 {display: block;}
-footer #rodape2 {display: none;}
+footer p {display: flex; justify-content: center;}
+footer div {display: inline;}
+footer a {color: yellow; text-decoration: none;}
+footer a:hover {text-decoration: underline;}
 
 @media (max-width: 950px) 
 {
   h1 {font-size: 1.5em;} 
   .ItensMenu > div {width: 100%; justify-content: center;}
-  footer #rodape1 {display: none;}
-  footer #rodape2 {display: block;}
 }
 
 @media (max-width: 600px) 
