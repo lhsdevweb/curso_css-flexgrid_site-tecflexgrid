@@ -1,0 +1,22 @@
+
+header {display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;   
+        padding: 20px; background-color: black; color: white;}
+header div {display: none;} h2 {font-size: medium;}
+menu a {padding: 20px;} 
+a {text-decoration: none; color: white;}
+a:hover {text-decoration: underline; color: yellow;}
+
+@media (max-width: 630px) { 
+  menu a {padding: 10px;} 
+}
+@media (max-width: 570px) {
+  header {display: block; text-align: center;}
+  menu {margin-top: 20px;}
+}
+@media (max-width: 345px) {
+  header {text-align: center;}
+  header > h2 {display: none;}
+  header div {display: block;}
+  menu {text-align: center;}
+}
+  

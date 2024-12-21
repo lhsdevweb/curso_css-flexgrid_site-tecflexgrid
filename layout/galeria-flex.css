@@ -1,0 +1,25 @@
+
+* {margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+
+h3 {text-align: center; margin-top: 20px; margin-bottom: 20px;}
+main > div {display: none;}
+
+#galeria {display: flex; flex-wrap: wrap; max-width: 800px; margin: auto;}
+#galeria div {flex: 1 1 200px; margin: 10px;}
+#galeria div img {max-width: 100%;}
+
+main > p {text-align: center; margin-top: 50px;}
+main > p > a {text-decoration: none; color: black;}
+main > p > a:hover {text-decoration: underline; color: blue;}
+
+@media (max-width: 650px) { main > p {margin: 20px 0;} }
+
+@media (max-width: 600px) { h3 {font-size: larger;} } 
+
+@media (max-width: 500px) { #galeria {display: block;} }
+
+@media (max-width: 345px) {
+  main > h3 {display: none;}
+  main > div {display: block; padding: 20px;}
+  main > div > h3 {margin: 0;}
+}
